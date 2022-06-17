@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{0d284142-fc85-4c2b-b454-7127d4a43b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXUT\Core">
+      <UniqueIdentifier>{c0bea986-3998-4070-a736-a24c8afa4bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXUT\Optional">
+      <UniqueIdentifier>{00e94302-0311-486d-b7c4-26c34e02314d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FX">
+      <UniqueIdentifier>{61328886-cbd6-474f-8d1f-938b63f912c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXUT\Media">
+      <UniqueIdentifier>{f88305a7-6836-41fb-b08b-bf98211bb612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXUT\Media\UI">
+      <UniqueIdentifier>{209152fb-58ef-41e2-a0f4-068bf3419386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISPC">
+      <UniqueIdentifier>{e54fb230-ba43-485e-b419-3ee551c85451}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FullScreenTriangle.hlsli">
+      <Filter>FX</Filter>
+    </None>
+    <None Include="GBuffer.hlsli">
+      <Filter>FX</Filter>
+    </None>
+    <None Include="PerFrameConstants.hlsli">
+      <Filter>FX</Filter>
+    </None>
+    <None Include="Rendering.hlsli">
+      <Filter>FX</Filter>
+    </None>
+    <None Include="ComputeShaderTile.hlsli">
+      <Filter>FX</Filter>
+    </None>
+    <None Include="BasicLoop.hlsli">
+      <Filter>FX</Filter>
+    </None>
+    <None Include="GPUQuad.hlsli">
+      <Filter>FX</Filter>
+    </None>
+    <None Include="Forward.hlsli">
+      <Filter>FX</Filter>
+    </None>
+    <None Include="SkyboxToneMap.hlsli">
+      <Filter>FX</Filter>
+    </None>
+    <None Include="FramebufferFlat.hlsli">
+      <Filter>FX</Filter>
+    </None>
+    <None Include="GPUQuadDL.hlsli">
+      <Filter>FX</Filter>
+    </None>
+    <None Include="Clustered.hlsli">
+      <Filter>FX</Filter>
+    </None>
+    <None Include="FX\ShaderDefines.hlsli">
+      <Filter>FX</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Texture2D.cpp" />
+    <ClCompile Include="ColorUtil.cpp" />
+    <ClCompile Include="LightGrid.cpp" />
+    <ClCompile Include="FragmentFactory.cpp" />
+    <ClCompile Include="DXUT\Core\DDSTextureLoader.cpp">
+      <Filter>DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\dxerr.cpp">
+      <Filter>DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\ScreenGrab.cpp">
+      <Filter>DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\WICTextureLoader.cpp">
+      <Filter>DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTDevice11.cpp">
+      <Filter>DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ISPC\kernels.cpp">
+      <Filter>ISPC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="Texture2D.h" />
+    <ClInclude Include="ColorUtil.h" />
+    <ClInclude Include="Buffer.h" />
+    <ClInclude Include="LightGrid.h" />
+    <ClInclude Include="FragmentFactory.h" />
+    <ClInclude Include="DXUT\Core\DDSTextureLoader.h">
+      <Filter>DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\dxerr.h">
+      <Filter>DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\ScreenGrab.h">
+      <Filter>DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\WICTextureLoader.h">
+      <Filter>DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTDevice11.h">
+      <Filter>DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ISPC\kernels.h">
+      <Filter>ISPC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="FX\Rendering_GeometryVS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GBuffer_GBufferPS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GBuffer_GBufferAlphaTestPS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Forward_ForwardPS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Forward_ForwardAlphaTestOnlyPS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Forward_ForwardAlphaTestPS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Clustered_ClusteredPS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Rendering_FullScreenTriangleVS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SkyboxToneMap_SkyboxVS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SkyboxToneMap_SkyboxPS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GBuffer_RequiresPerSampleShadingPS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\BasicLoop_BasicLoopPS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\BasicLoop_BasicLoopPerSamplePS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\ComputeShaderTile_ComputeShaderTileCS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GPUQuadDL_GPUQuadDLResolvePS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GPUQuadDL_GPUQuadDLResolvePerSamplePS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GPUQuadDL_GPUQuadDLPS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GPUQuadDL_GPUQuadDLPerSamplePS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GPUQuad_GPUQuadVS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GPUQuad_GPUQuadGS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GPUQuad_GPUQuadPS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GPUQuad_GPUQuadPerSamplePS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="DXUT\Media\UI\dxutcontrols.dds">
+      <Filter>DXUT\Media\UI</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="DXUT\Media\UI\Font.dds">
+      <Filter>DXUT\Media\UI</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
